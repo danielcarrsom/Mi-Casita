@@ -238,6 +238,119 @@ svg{display:block}
 .hb-learn{background:var(--gold);color:var(--ink)}
 .hb-learn .hbi{background:var(--paper)}
 
+/* home v2 */
+.hb-wide{min-height:84px;border-radius:28px;display:flex;align-items:center;justify-content:center;gap:12px;font-family:var(--display);font-weight:800;font-size:26px;box-shadow:var(--sh);background:var(--terra);color:#fff}
+.hb-wide .hbi{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.2)}
+.hb-wide .hbi svg{width:32px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tl6{min-height:136px;border-radius:26px;background:var(--paper);box-shadow:var(--sh);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:12px 8px;font-family:var(--display);font-weight:800;font-size:22px;line-height:1.1;text-align:center;position:relative}
+.tl6 svg.ti{width:64px;height:64px}
+.flag{position:absolute;top:8px;right:8px;height:36px;border-radius:18px;padding:0 10px;display:flex;align-items:center;gap:4px;font-size:20px;font-weight:800;font-family:var(--body)}
+.flag.warn{background:var(--terra);color:#fff}
+.flag.gain{background:var(--gold-l);color:#5A4209}
+.flag svg{width:18px}
+
+/* 13 envíos */
+.prow{display:flex;align-items:center;gap:10px;padding:12px}
+.pbadge{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:22px;color:#fff;flex:none}
+.prow > div{flex:1;min-width:0}
+.prow .num{font-size:34px}
+.prow.best{box-shadow:0 0 0 4px var(--green),var(--sh)}
+.pills{display:flex;flex-wrap:wrap;gap:4px;margin-top:2px}
+.pill{display:inline-flex;align-items:center;gap:4px;border-radius:14px;padding:2px 10px;font-size:20px;font-weight:800}
+.pill.cheap{background:var(--leaf-l);color:var(--green)}
+.pill.yours{background:var(--gold-l);color:#5A4209}
+.pill svg{width:16px}
+.gainrow{display:flex;justify-content:center}
+.gainchip{display:inline-flex;align-items:center;gap:8px;background:var(--gold-l);color:#5A4209;border-radius:22px;padding:6px 14px;font-family:var(--display);font-weight:800;font-size:24px}
+.gainchip svg{width:36px}
+.fees{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fee{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;padding:12px 8px}
+.fee svg.fi{width:56px;height:56px}
+.fee .num{font-size:34px}
+.fee .say{margin-top:-4px}
+.fee.hid{background:#FBEDE5}
+.fee.hid .num{color:var(--terra-d)}
+.win{display:flex;align-items:center;gap:12px;padding:14px;background:var(--green);color:#fff}
+.win .num{color:var(--gold-l);font-size:40px}
+.win .s{color:#fff}
+.win > div{flex:1;min-width:0}
+.win svg.wi{width:64px;height:64px;flex:none}
+.win .say span{background:rgba(255,255,255,.18);color:#fff}
+.allp{padding:6px 12px}
+.allp .prow{box-shadow:none;border-bottom:2px solid var(--sand);border-radius:0;padding:10px 0}
+.allp .prow:last-child{border-bottom:0}
+.allp .num{font-size:28px}
+
+/* 14 negocio */
+.inout{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.io{display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px 8px;text-align:center}
+.arr{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;color:#fff;flex:none}
+.arr svg{width:26px}
+.arr.up{background:var(--green)} .arr.down{background:var(--terra)}
+.io .num{font-size:36px}
+.io.out .num{color:var(--terra-d)}
+.kept{display:flex;flex-direction:column;gap:8px;padding:14px}
+.kept .row{display:flex;align-items:center;gap:10px}
+.kept .row > div{flex:1;min-width:0}
+.kept svg.fi{width:56px;height:56px;flex:none}
+.coins10{display:flex;gap:5px;flex-wrap:wrap}
+.coins10 i{display:block;width:26px;height:26px;border-radius:50%;background:var(--gold);border:2px solid #A9781A}
+.coins10 i.off{background:var(--sand);border-color:var(--sand-d)}
+.entries{display:flex;flex-direction:column;padding:6px 12px}
+.ent{display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:2px solid var(--sand)}
+.ent:last-child{border-bottom:0}
+.ent svg.eic{width:48px;height:48px;flex:none}
+.ent > div{flex:1;min-width:0}
+.ent .t{font-size:21px}
+.amt2{font-family:var(--display);font-weight:800;font-size:24px;display:flex;align-items:center;gap:2px;white-space:nowrap}
+.amt2 svg{width:20px}
+.amt2.plus{color:var(--green)} .amt2.minus{color:var(--terra-d)}
+.del{width:64px;height:64px;display:grid;place-items:center;color:#6B5A48;flex:none}
+.del svg{width:22px}
+.pitem{display:flex;align-items:center;gap:12px;padding:12px}
+.pitem svg.eic{width:64px;height:64px;flex:none}
+.pitem > div{flex:1;min-width:0}
+.pitem .num{font-size:40px}
+.pitem.minus .num{color:var(--terra-d)}
+
+/* 15 semana */
+.alert{display:flex;align-items:center;gap:12px;padding:14px}
+.alert.bad{background:#FBE3D8}
+.alert.good{background:#E7F2EA}
+.alert svg.ai{width:56px;height:56px;flex:none}
+.alert > div{flex:1;min-width:0}
+.alert .num{font-size:38px}
+.alert.bad .num{color:var(--terra-d)}
+.wk{display:flex;align-items:center;gap:6px;padding:8px}
+.wk .jar{flex:none}
+.wk .wd{flex:1;min-width:0}
+.wk .wd .s{font-size:20px}
+.wk .wd .num{font-size:28px}
+.wk.short{box-shadow:0 0 0 4px var(--terra),var(--sh);background:#FFF4EE}
+.wk.short .num{color:var(--terra-d)}
+.stp{display:flex;align-items:center;gap:2px;flex:none}
+.stp button{width:60px;height:64px;border-radius:18px;background:var(--sand);display:grid;place-items:center;color:var(--ink)}
+.stp button svg{width:22px}
+.stp b{font-family:var(--display);font-size:22px;min-width:52px;text-align:center}
+.bills{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.billc{display:flex;align-items:center;gap:8px;padding:10px}
+.billc svg{width:44px;height:44px;flex:none}
+.billc .num{font-size:24px}
+.billc .s{font-size:20px}
+
+/* 16 cartas */
+.verdict{display:flex;align-items:center;gap:12px;padding:14px}
+.verdict.real{background:#E7F2EA}
+.verdict.scam{background:#FBE3D8}
+.verdict svg.vi{width:64px;height:64px;flex:none}
+.verdict > div{flex:1;min-width:0}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.duo button{min-height:96px;border-radius:24px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-family:var(--display);font-weight:800;font-size:21px;line-height:1.1;box-shadow:var(--sh);background:var(--paper);padding:8px;text-align:center}
+.duo button svg{width:44px;height:44px}
+.toast{position:absolute;left:16px;right:16px;bottom:150px;background:var(--ink);color:#fff;border-radius:22px;padding:14px 16px;display:flex;align-items:center;gap:12px;font-family:var(--display);font-weight:800;font-size:22px;animation:rise .4s ease-out both}
+.toast svg{width:40px;height:40px;flex:none}
+
 /* 9 spend */
 .example{display:flex;align-items:center;gap:12px;padding:14px;background:var(--terra-l)}
 .example .eb{width:56px;height:56px;border-radius:50%;background:var(--terra);color:#fff;display:grid;place-items:center;flex:none}
@@ -367,13 +480,13 @@ svg{display:block}
 <div class="stage">
   <aside class="panel" aria-label="Prototype controls">
     <h1>Mi Casita</h1>
-    <p class="tag">Voice-first planning companion for Doña María, 60, in Queens. Prototype UI in simple Spanish; every screen works by voice.</p>
+    <p class="tag">Voice-first planning companion for Doña María, 60, in Queens. Mi Casita’s voice-and-pictures design, now with Claro’s remittance, business, paycheck and letters tools. Every screen works by voice.</p>
     <div class="now"><small id="pnum">Screen 1 of 12</small><h2 id="pname">Welcome</h2><p id="pnote"></p></div>
     <nav id="pnav"></nav>
     <ul class="tips">
       <li>Tap the big terracotta mic to simulate speaking: a sound wave plays, then the answer appears as a picture and number.</li>
       <li>Every green speaker reads text aloud (uses your browser's voice if available).</li>
-      <li>Screens 1–8 are the onboarding path; Home opens 9, 10 and 11. The “Familia” button opens 12.</li>
+      <li>Screens 1–8 are the onboarding path. Home opens everything else: 9–11 from Mi Casita, 13–16 adapted from Claro, and “Familia” opens 12.</li>
     </ul>
     <button class="reset" id="reset">Restart from screen 1</button>
   </aside>
@@ -428,6 +541,15 @@ const G={
  jar:`<rect x="16" y="8" width="32" height="9" rx="3" fill="${C.terra}"/><path d="M18 17h28v33a6 6 0 0 1-6 6H24a6 6 0 0 1-6-6z" fill="${C.paper}"/><path d="M18 34h28v16a6 6 0 0 1-6 6H24a6 6 0 0 1-6-6z" fill="${C.gold}"/><path d="M24 22v8" stroke="#fff" stroke-width="3"/>`,
  warn:`<path d="M32 8L58 54H6z" fill="${C.gold}"/><path d="M32 24v14" stroke-width="4"/><circle cx="32" cy="46" r="3" fill="${C.line}"/>`,
  will:`<path d="M16 8h22l10 10v38H16z" fill="${C.paper}"/><path d="M38 8v10h10"/><path d="M32 30c-2-3-7-2-7 2 0 4 7 8 7 8s7-4 7-8c0-4-5-5-7-2z" fill="${C.terra}"/><path d="M22 48h20"/>`,
+ tamal:`<path d="M12 50C8 34 18 14 32 8c14 6 24 26 20 42z" fill="${C.goldL}"/><path d="M20 46c0-14 5-26 12-32 7 6 12 18 12 32z" fill="#E9C46A"/><path d="M32 16v32M25 26l7 6 7-6M25 36l7 6 7-6" stroke="${C.goldD}"/><path d="M8 50h48"/>`,
+ bag:`<path d="M16 22h32l5 34H11z" fill="${C.paper}"/><path d="M16 22c4-7 28-7 32 0"/><path d="M22 12l4 10M42 12l-4 10"/><path d="M21 40c5-5 17-5 22 0" stroke="${C.gold}" stroke-width="4"/>`,
+ broom:`<path d="M14 30h26l-3 24H17z" fill="${C.leaf}"/><path d="M11 30h32"/><path d="M50 6L38 40"/><path d="M31 38l14 5 3 12-18-6z" fill="${C.gold}"/>`,
+ bell:`<path d="M16 44c4-4 4-10 4-16a12 12 0 0 1 24 0c0 6 0 12 4 16z" fill="${C.gold}"/><path d="M28 50a4 4 0 0 0 8 0M32 10v6"/>`,
+ shield:`<path d="M32 6l22 8v14c0 14-10 24-22 30C20 52 10 42 10 28V14z" fill="${C.leaf}"/><path d="M22 32l7 7 13-14" stroke="#fff" stroke-width="4.5"/>`,
+ eye:`<path d="M4 32c8-12 18-18 28-18s20 6 28 18c-8 12-18 18-28 18S12 44 4 32z" fill="${C.paper}"/><circle cx="32" cy="32" r="9" fill="${C.green}"/><circle cx="35" cy="29" r="2.5" fill="#fff" stroke="none"/>`,
+ eyeoff:`<path d="M4 32c8-12 18-18 28-18s20 6 28 18c-8 12-18 18-28 18S12 44 4 32z" fill="${C.sand}"/><circle cx="32" cy="32" r="9" fill="${C.sand}"/><path d="M10 54L54 10" stroke="${C.terra}" stroke-width="5"/>`,
+ letter:`<rect x="6" y="14" width="52" height="36" rx="4" fill="${C.paper}"/><path d="M6 16l26 18 26-18"/><circle cx="32" cy="38" r="5" fill="${C.terra}"/>`,
+ clock:`<circle cx="32" cy="32" r="24" fill="${C.paper}"/><path d="M32 16v16l10 6" stroke-width="3.5"/><path d="M10 10l8 4M54 10l-8 4" stroke="${C.terra}" stroke-width="3"/>`,
  consul:`<path d="M32 6l22 8v14c0 14-10 24-22 30C20 52 10 42 10 28V14z" fill="${C.green}"/><path d="M22 30c4-6 16-6 20 0-4 8-16 8-20 0z" fill="${C.gold}"/><circle cx="32" cy="24" r="4" fill="${C.goldL}"/>`,
  coop:`<circle cx="32" cy="32" r="26" fill="${C.leafL}"/><path d="M10 38c6 0 10 3 13 7l6 5h-7M54 38c-6 0-10 3-13 7l-6 5h7" fill="${C.skin3}"/><circle cx="32" cy="26" r="10" fill="${C.gold}"/><text x="32" y="32" text-anchor="middle" font-size="15" font-weight="800" font-family="Baloo 2, sans-serif" fill="${C.line}" stroke="none">$</text>`,
  org:`<circle cx="32" cy="32" r="26" fill="${C.terraL}"/><circle cx="20" cy="26" r="5" fill="${C.paper}"/><circle cx="32" cy="22" r="5" fill="${C.paper}"/><circle cx="44" cy="26" r="5" fill="${C.paper}"/><path d="M12 44c2-8 14-10 20-10s18 2 20 10" fill="${C.terra}"/>`,
@@ -442,6 +564,8 @@ const B={
  phone:`<path d="M18 8l8 2 4 12-6 4c3 7 7 11 14 14l4-6 12 4 2 8c0 6-6 10-12 9C24 52 12 40 10 20 9 14 12 8 18 8z" fill="currentColor" stroke-width="2"/>`,
  play:`<path d="M22 13l28 19-28 19z" fill="currentColor"/>`,
  pause:`<rect x="17" y="14" width="10" height="36" rx="2" fill="currentColor"/><rect x="37" y="14" width="10" height="36" rx="2" fill="currentColor"/>`,
+ plus:`<path d="M32 12v40M12 32h40"/>`, minus:`<path d="M12 32h40"/>`,
+ up:`<path d="M32 52V12M16 28l16-16 16 16"/>`, down:`<path d="M32 12v40M16 36l16 16 16-16"/>`, star:`<path d="M32 6l8 17 18 2-13 12 4 18-17-9-17 9 4-18L6 25l18-2z" fill="currentColor" stroke-width="2"/>`, heart:`<path d="M32 54S8 40 8 24c0-9 7-14 13-14 5 0 9 3 11 7 2-4 6-7 11-7 6 0 13 5 13 14 0 16-24 30-24 30z" fill="currentColor" stroke-width="2"/>`,
  home:`<path d="M8 30L32 10l24 20M16 24v30h32V24"/><path d="M27 54V40h10v14"/>`,
 };
 const bsv=k=>`<svg viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">${B[k]}</svg>`;
@@ -585,6 +709,35 @@ const LESSONS=[
  {k:'scam',title:'Cuidado con las estafas',art:[['phone',30,16,1.05],['warn',88,26,.9]],say:'Si alguien te llama y te pide dinero rápido, o te pide tus datos, cuelga. Nadie de verdad te apura así.'},
  {k:'heir',title:'¿Quién recibe tus ahorros?',art:[['family',18,20,1.05],['will',90,24,.9]],say:'Escribe quién recibe tus ahorros si algo te pasa. En tu cuenta puedes poner a una persona de confianza.'},
 ];
+/* Claro features, in Mi Casita form */
+const RATE=18.6,SEND=150,SENDS=24;
+const PROV=[
+ {k:'finabien',name:'Finabién',ab:'Fb',col:C.green,fee:1,mxn:2765},
+ {k:'wise',name:'Wise',ab:'W',col:'#3C6E8F',fee:2,mxn:2745},
+ {k:'remitly',name:'Remitly',ab:'R',col:'#5B4E8C',fee:3,mxn:2715},
+ {k:'wu',name:'Western Union',ab:'WU',col:'#8A6A12',fee:5,mxn:2650,yours:true},
+ {k:'bank',name:'Banco',ab:'B',col:'#6B5A48',fee:25,mxn:2320},
+];
+const pcost=p=>SEND-p.mxn/RATE;
+const YOURS=PROV.find(p=>p.yours),BEST=PROV.reduce((a,b)=>b.mxn>a.mxn?b:a);
+const SAVE_YEAR=Math.round((pcost(YOURS)-pcost(BEST))*SENDS);
+const ONCE_SAVE=YOURS.fee*12;
+const pesos=n=>n.toLocaleString('en-US')+' pesos';
+const BIZ0=[
+ {ic:'broom',l:'Limpiar una casa',d:'10 oct',a:120},
+ {ic:'tamal',l:'Ventas de tamales',d:'9 oct',a:210},
+ {ic:'bag',l:'Carne',d:'8 oct',a:-60},
+ {ic:'tamal',l:'Ventas de tamales',d:'8 oct',a:165},
+ {ic:'bag',l:'Hojas de maíz',d:'7 oct',a:-25},
+ {ic:'tamal',l:'Ventas de tamales',d:'7 oct',a:240},
+ {ic:'bus',l:'Gasolina',d:'6 oct',a:-40},
+ {ic:'bag',l:'Masa',d:'6 oct',a:-60},
+ {ic:'tamal',l:'Ventas de tamales',d:'6 oct',a:300},
+];
+const WK={start:120,rate:20,daily:25,dates:['10 oct','17 oct','24 oct','31 oct'],
+ bills:[[0,'family','Envío',150,'15 oct'],[0,'phone','Teléfono',60,'15 oct'],[1,'light','Luz y gas',150,'20 oct'],[2,'family','Envío',150,'30 oct'],[3,'rent','Renta',1400,'1 nov']]};
+function weeks(h){let b=WK.start;return h.map((hr,i)=>{b+=hr*WK.rate-WK.daily*7-WK.bills.filter(x=>x[0]===i).reduce((a,x)=>a+x[3],0);return b})}
+const shortWeek=h=>{const w=weeks(h);const i=w.findIndex(v=>v<0);return i<0?null:{i,amt:-w[i]}};
 const NOTES={
  1:['Welcome','Doña Rosa greets by voice. Tapping a face plays a greeting in Spanish, Maya or English.'],
  2:['Trust promise','Three promises, each read aloud, plus placeholder community endorsements.'],
@@ -597,10 +750,14 @@ const NOTES={
  9:['Add spending','Say it or photograph the receipt. Read-back with a big yes / no.'],
  10:['My help','Resources matched to the house goal, each with picture steps, a map and “Call for me”.'],
  11:['Learn','One-minute audio stories with illustrated cards.'],
+ 13:['Send money home','From Claro: compare what your family receives, see the hidden exchange-rate fee, and what a switch adds to the house.'],
+ 14:['My business','From Claro’s Ledger: say what you sold and spent; money in/out shown as pictures, not a P&L table.'],
+ 15:['My week','From Claro’s Paycheck: hours by +/− or voice, a jar per week, and an early warning for the short week.'],
+ 16:['Letters','Photograph a letter; Doña Rosa says what it is, if it is real, and what to do. Flags scams.'],
  12:['Helper mode','A family member joins by QR code. Permissions shown with icons; she can remove them.'],
 };
 
-const fresh=()=>({screen:1,lang:null,dream:null,years:null,income:null,expIdx:0,exp:[null,null,null,null,null],jarPrev:1,spendStep:'ask',res:null,playing:null,helper:'off',heardText:null});
+const fresh=()=>({biz:BIZ0.slice(),bizStep:'main',hours:[40,32,20,30],letter:'ask',screen:1,lang:null,dream:null,years:null,income:null,expIdx:0,exp:[null,null,null,null,null],jarPrev:1,spendStep:'ask',res:null,playing:null,helper:'off',heardText:null});
 let S=fresh();
 let H={},SAY=[],T=[],listening=false;
 const later=(fn,ms)=>T.push(setTimeout(fn,ms));
@@ -694,16 +851,16 @@ const SCREENS={
 },
 8(){
   H.spend=()=>{S.spendStep='ask';go(9)};H.help=()=>{S.res=null;go(10)};H.learn=()=>{S.playing=null;go(11)};H.family=()=>{S.helper='off';go(12)};
-  return {guide:['¡Buenos días!','¡Buenos días! Ya llevas 145 dólares para tu casa. Esta semana vas 25 de 40 dólares. ¡Vas muy bien!'],
+  H.send=()=>go(13);H.biz=()=>{S.bizStep='main';go(14)};H.week=()=>go(15);H.letters=()=>{S.letter='ask';go(16)};
+  const sw=shortWeek(S.hours);
+  const T6=[['send','send','Mandar dinero',`<span class="flag gain">+${fmt(SAVE_YEAR)}</span>`],['biz','shop','Mi negocio',''],['week','calendar','Mi semana',sw?`<span class="flag warn" aria-label="Aviso">!</span>`:''],['letters','letter','Cartas',''],['help','hands','Mi ayuda',''],['learn','headphones','Aprender','']];
+  return {guide:['¡Buenos días, María!',`¡Buenos días, María! Ya llevas 145 dólares para tu casa. Encontré cómo ahorrar ${SAVE_YEAR} dólares al año en tus envíos.`+(sw?` Y ojo: la semana del ${WK.dates[sw.i]} te pueden faltar ${sw.amt} dólares.`:'')],
    body:`<div class="card homecard">${brickHouse(3,{current:true})}
      <button class="fam" data-a="family" aria-label="Ayuda de familia">${ic('family')}Familia</button>
      <div class="hstats">${ic('coin')}<span class="num">${fmt(145)}</span><span class="s">para tu casa</span>${spk('Ya llevas 145 dólares para tu casa.')}</div></div>
    <div class="card week">${jar(25/40,{w:84,kind:'gold'})}<div><div class="s">Esta semana</div><div class="num">$25 <small>de $40</small></div></div>${spk('Esta semana llevas 25 de 40 dólares.')}</div>
-   <div class="homebtns">
-     <button class="hb hb-spend" data-a="spend"><span class="hbi">${bsv('mic')}</span>Gasté</button>
-     <button class="hb hb-help" data-a="help"><span class="hbi">${ic('hands')}</span>Mi ayuda</button>
-     <button class="hb hb-learn" data-a="learn"><span class="hbi">${ic('headphones')}</span>Aprender</button>
-   </div>`,
+   <button class="hb-wide" data-a="spend"><span class="hbi">${bsv('mic')}</span>Gasté</button>
+   <div class="tiles">${T6.map(t=>`<button class="tl6" data-a="${t[0]}">${t[3]}${ic(t[1],'ti')}${t[2]}</button>`).join('')}</div>`,
    dock:{mic:()=>listen('Gasté 20 dólares en comida',()=>{S.spendStep='confirm';go(9,true)})}};
 },
 9(){
@@ -782,6 +939,101 @@ const SCREENS={
      ${title('Tú das el permiso','Tú das el permiso. Tú decides.')}${perms}`,
    dock:{back:()=>go(8),mic:()=>listen('Sí, dar permiso',()=>{S.helper='qr';render()}),next:{label:'Sí, dar permiso',fn:()=>{S.helper='qr';render()},icon:'check'}}};
 },
+
+13(){
+  H.switch=()=>{S.res='finabien';go(10)};
+  const gain=BEST.mxn-YOURS.mxn,seen=YOURS.fee,hid=pcost(YOURS)-YOURS.fee;
+  const row=(p,cls='')=>`<div class="card prow ${cls}"><span class="pbadge" style="background:${p.col}">${p.ab}</span><div><div class="t">${p.name}</div><div class="num">${pesos(p.mxn)}</div>
+    <div class="pills">${p===BEST?`<span class="pill cheap">${bsv('star')}La más barata</span>`:''}${p.yours?`<span class="pill yours">${bsv('heart')}La tuya</span>`:''}</div></div>${spk(`Con ${p.name}, a tu familia le llegan ${p.mxn} pesos.`)}</div>`;
+  return {guide:['Tu envío de $150',`Mandas 150 dólares dos veces al mes. Con ${YOURS.name} a tu familia le llegan ${YOURS.mxn} pesos. Con ${BEST.name} le llegan ${BEST.mxn}. Son ${gain} pesos más cada vez.`],
+   body:`${title('¿Cuánto le llega a tu familia?','Por cada 150 dólares, ¿cuánto le llega a tu familia?')}
+    ${row(YOURS)}<div class="gainrow"><span class="gainchip pop">${ic('family')}+${gain} pesos cada vez</span></div>${row(BEST,'best')}
+    ${title('Lo que te cobran','Lo que te cobran, el que ves y el escondido.')}
+    <div class="fees"><div class="card fee">${ic('eye','fi')}<div class="num">${fmt(seen)}</div><div class="s">el que ves</div>${spk(`${YOURS.name} te cobra ${seen} dólares que sí ves.`)}</div>
+      <div class="card fee hid">${ic('eyeoff','fi')}<div class="num">$${hid.toFixed(2)}</div><div class="s">escondido</div>${spk(`Y ${hid.toFixed(2).replace('.',' dólares con ')} centavos escondidos en el cambio de pesos.`)}</div></div>
+    <div class="card win">${sv(G.house,'0 0 64 64','wi')}<div><div class="num">${fmt(SAVE_YEAR)}</div><div class="s">al año, para tu casa</div></div>${spk(`Si cambias a ${BEST.name}, ahorras ${SAVE_YEAR} dólares al año. Eso va para tu casa.`)}</div>
+    <div class="card fact">${ic('calendar','fi')}<div><div class="t">Manda 1 vez al mes</div><div class="num gold" style="font-size:34px">+${fmt(ONCE_SAVE)}</div><div class="s">al año</div></div>${spk(`Si mandas una vez al mes en vez de dos, pagas el cobro una sola vez. Ahorras ${ONCE_SAVE} dólares al año. Pero tu familia recibe todo junto.`)}</div>
+    ${title('Todos los servicios','Todos los servicios, del que más le llega a tu familia al que menos.')}
+    <div class="card allp">${PROV.slice().sort((a,b)=>b.mxn-a.mxn).map(p=>row(p)).join('')}</div>
+    <div class="s" style="text-align:center">Precios de ejemplo</div>`,
+   dock:{back:()=>go(8),mic:()=>listen('¿Cuál es la más barata?',()=>{render(false);speak(`La más barata es ${BEST.name}. Le llegan ${BEST.mxn} pesos a tu familia.`)}),next:{label:`Cambiar a ${BEST.name}`,fn:H.switch}}};
+},
+14(){
+  const E=S.biz,inn=E.filter(e=>e.a>0).reduce((a,e)=>a+e.a,0),out=-E.filter(e=>e.a<0).reduce((a,e)=>a+e.a,0),kept=inn-out,cents=inn?Math.round(kept/inn*100):0;
+  E.forEach((e,i)=>H['del'+i]=()=>{S.biz.splice(i,1);sfx.no();render(false);speak('Borré '+e.l.toLowerCase()+'.')});
+  const NEW=[{ic:'tamal',l:'30 tamales',d:'Hoy',a:60},{ic:'bag',l:'Masa',d:'Hoy',a:-25}];
+  const yes=()=>{S.biz=NEW.concat(S.biz);S.bizStep='main';sfx.done();render(false);speak('¡Listo! Lo anoté. Vendiste 60 y gastaste 25.')};
+  H.byes=yes;H.bno=()=>{sfx.no();S.bizStep='main';S.heardText=null;render(false);speak('Está bien. Dímelo otra vez.')};
+  const item=e=>`<div class="card pitem ${e.a<0?'minus':''} pop">${ic(e.ic,'eic')}<div><div class="t">${e.l}</div><div class="num">${e.a<0?'−':'+'}${fmt(Math.abs(e.a))}</div></div><span class="arr ${e.a<0?'down':'up'}">${bsv(e.a<0?'down':'up')}</span></div>`;
+  if(S.bizStep==='confirm') return {guide:['¿Está bien?','Vendiste 30 tamales a 2 dólares: 60 dólares. Y gastaste 25 en masa. ¿Está bien?'],
+   body:`${heardChip()}<div class="parsed" style="display:flex;flex-direction:column;gap:10px">${NEW.map(item).join('')}</div>
+    <div class="yn"><button class="yes" data-a="byes">${bsv('check')}Sí</button><button class="no" data-a="bno">${bsv('x')}No</button></div>`,
+   dock:{back:()=>{S.bizStep='main';render()},mic:()=>listen('Sí',yes)}};
+  return {guide:['Tu negocio este mes',`Dime qué vendiste y qué gastaste. Yo hago las cuentas. Este mes entraron ${inn} dólares, salieron ${out}, y te quedaron ${kept}.`],
+   body:`<div class="card example"><span class="eb">${bsv('mic')}</span><div class="t">«Vendí 30 tamales a 2 dólares y gasté 25 en masa»</div>${spk('Por ejemplo, di: vendí 30 tamales a 2 dólares y gasté 25 en masa.')}</div>
+    <div class="inout"><div class="card io in"><span class="arr up">${bsv('up')}</span><div class="num">${fmt(inn)}</div><div class="s">entró</div>${spk(`Este mes entraron ${inn} dólares.`)}</div>
+      <div class="card io out"><span class="arr down">${bsv('down')}</span><div class="num">${fmt(out)}</div><div class="s">salió</div>${spk(`Este mes salieron ${out} dólares.`)}</div></div>
+    <div class="card kept"><div class="row">${ic('jar','fi')}<div><div class="s">Te quedó</div><div class="num">${fmt(kept)}</div></div>${spk(`Te quedaron ${kept} dólares. De cada dólar que vendes, te quedan ${cents} centavos.`)}</div>
+      <div class="coins10" aria-hidden="true">${Array.from({length:10},(_,i)=>`<i class="${i<Math.round(cents/10)?'':'off'}"></i>`).join('')}</div><div class="s">De cada $1, te quedan ${cents}¢</div></div>
+    ${title('Lo que anotaste','Lo que anotaste este mes.')}
+    <div class="card entries">${E.map((e,i)=>`<div class="ent">${ic(e.ic,'eic')}<div><div class="t">${e.l}</div><div class="s">${e.d}</div></div><span class="amt2 ${e.a<0?'minus':'plus'}">${bsv(e.a<0?'down':'up')}${fmt(Math.abs(e.a))}</span><button class="del" data-a="del${i}" aria-label="Borrar">${bsv('x')}</button></div>`).join('')}</div>`,
+   dock:{back:()=>go(8),mic:()=>listen('Vendí 30 tamales a 2 dólares y gasté 25 en masa',()=>{S.bizStep='confirm';render(false);speak('Vendiste 30 tamales a 2 dólares: 60 dólares. Y gastaste 25 en masa. ¿Está bien?')})}};
+},
+15(){
+  const h=S.hours,w=weeks(h),sw=shortWeek(h);
+  const change=(i,d)=>{h[i]=Math.max(0,Math.min(60,h[i]+d));const nw=weeks(h);render(false);speak(`${h[i]} horas. Esa semana te quedan ${nw[i]<0?'menos '+(-nw[i]):nw[i]} dólares.`)};
+  h.forEach((_,i)=>{H['hp'+i]=()=>change(i,2);H['hm'+i]=()=>change(i,-2)});
+  const tip=sw?Math.ceil(sw.amt/Math.max(1,sw.i)):0;
+  return {guide:[sw?`Semana del ${WK.dates[sw.i]}: cuidado`:'Todas tus semanas alcanzan',sw?`Te aviso con tiempo: la semana del ${WK.dates[sw.i]} pagas la renta y te pueden faltar ${sw.amt} dólares. Si guardas ${tip} dólares cada semana desde hoy, sí te alcanza.`:'¡Muy bien! Con estas horas, todas tus semanas alcanzan.'],
+   body:`${sw?`<div class="card alert bad pop">${ic('warn','ai')}<div><div class="s">Semana del ${WK.dates[sw.i]}</div><div class="num">Faltan ${fmt(sw.amt)}</div></div>${spk(`La semana del ${WK.dates[sw.i]} te pueden faltar ${sw.amt} dólares.`)}</div>
+      <div class="card fact">${ic('jar','fi')}<div><div class="t">Guarda ${fmt(tip)} cada semana</div></div>${spk(`Si guardas ${tip} dólares cada semana desde hoy, sí te alcanza.`)}</div>`
+     :`<div class="card alert good pop">${ic('shield','ai')}<div><div class="t">Todas las semanas alcanzan</div></div>${spk('Todas tus semanas alcanzan.')}</div>`}
+    ${title('Tus horas de trabajo',`Te pagan ${WK.rate} dólares la hora, cada viernes. Toca más o menos para cambiar tus horas.`)}
+    ${h.map((hr,i)=>`<div class="card wk ${w[i]<0?'short':''}">${jar(Math.max(0,Math.min(1,w[i]/1000)),{w:48})}<div class="wd"><div class="s">${WK.dates[i]}</div><div class="num">${w[i]<0?'−':''}${fmt(Math.abs(w[i]))}</div></div>
+      <div class="stp"><button data-a="hm${i}" aria-label="Menos horas">${bsv('minus')}</button><b>${hr} h</b><button data-a="hp${i}" aria-label="Más horas">${bsv('plus')}</button></div></div>`).join('')}
+    ${title('Lo que vas a pagar','Lo que vas a pagar este mes.')}
+    <div class="bills">${WK.bills.map(b=>`<div class="card billc">${ic(b[1])}<div><div class="num">${fmt(b[3])}</div><div class="s">${b[4]}</div></div></div>`).join('')}
+      <div class="card billc">${ic('food')}<div><div class="num">${fmt(WK.daily)}</div><div class="s">cada día</div></div></div></div>`,
+   dock:{back:()=>go(8),mic:()=>listen('La última semana trabajo 34 horas',()=>{h[3]=34;sfx.ok();render(false);const nw=weeks(h);speak(`34 horas la última semana. ${nw[3]>=0?'Así sí te alcanza. Te quedan '+nw[3]+' dólares.':'Todavía faltan '+(-nw[3])+' dólares.'}`)})}};
+},
+16(){
+  const st=S.letter;
+  const toast=(icon,txt)=>{document.getElementById('fx').insertAdjacentHTML('beforeend',`<div class="toast">${ic(icon)}${txt}</div>`);later(()=>{const t=document.querySelector('.toast');t&&t.remove()},3000)};
+  H.lcam=()=>{S.letter='scan';render()};
+  H.lshoot=()=>{sfx.tap();document.getElementById('body').insertAdjacentHTML('beforeend','<div class="flash"></div>');later(()=>{S.letter=S.letterNext||'bill';S.letterNext=null;sfx.ok();render()},650)};
+  H.remind=()=>{sfx.ok();toast('bell','Te aviso el 18 de octubre');speak('Te aviso el 18 de octubre para que pagues a tiempo.')};
+  H.other=()=>{S.letter='scan';S.letterNext='scam';render(false);speak('Toma foto de la otra carta.')};
+  H.warnfam=()=>{sfx.ok();toast('family','Le avisé a Lucía');speak('Le avisé a Lucía, tu nieta.')};
+  H.lesson=()=>{S.playing=null;go(11)};
+  const letterSVG=scam=>sv(scam
+    ?`<rect x="4" y="4" width="112" height="132" rx="4" fill="#fff"/><text x="60" y="30" text-anchor="middle" font-size="16" font-weight="800" font-family="Nunito, sans-serif" fill="#C0392B" stroke="none">¡GANASTE!</text><text x="60" y="56" text-anchor="middle" font-size="22" font-weight="800" font-family="Nunito, sans-serif" fill="#C0392B" stroke="none">$5,000</text><path d="M16 74h88M16 86h70M16 98h80" stroke="#B9AE9E"/><text x="60" y="124" text-anchor="middle" font-size="11" font-weight="800" font-family="Nunito, sans-serif" fill="${C.line}" stroke="none">PAGA $99 HOY</text>`
+    :`<rect x="4" y="4" width="112" height="132" rx="4" fill="#fff"/><rect x="4" y="4" width="112" height="24" rx="4" fill="${C.gold}"/><text x="60" y="21" text-anchor="middle" font-size="12" font-weight="800" font-family="Nunito, sans-serif" fill="${C.line}" stroke="none">CUENTA DE LUZ</text><path d="M16 44h60M16 56h46M16 68h54" stroke="#B9AE9E"/><text x="16" y="100" font-size="12" font-weight="800" font-family="Nunito, sans-serif" fill="${C.line}" stroke="none">TOTAL</text><text x="104" y="100" text-anchor="end" font-size="16" font-weight="800" font-family="Nunito, sans-serif" fill="${C.line}" stroke="none">$150.00</text><text x="16" y="122" font-size="10" font-weight="700" font-family="Nunito, sans-serif" fill="${C.line}" stroke="none">VENCE 20 OCT</text>`,'0 0 120 140','rc',1.6);
+  if(st==='scan') return {guide:['Toma foto de la carta','Pon la carta adentro del cuadro y toca el botón blanco.'],
+   body:`<div class="viewfinder"><i class="corner c1"></i><i class="corner c2"></i><i class="corner c3"></i><i class="corner c4"></i><div class="scan"></div>${letterSVG(S.letterNext==='scam')}</div>
+     <button class="shutter" data-a="lshoot" aria-label="Tomar foto">${bsv('camera')}</button>`,
+   dock:{back:()=>{S.letter='ask';render()},mic:()=>listen('Ya, toma la foto',()=>H.lshoot())}};
+  if(st==='bill') return {guide:['Es tu cuenta de luz','Esta carta es tu cuenta de luz. Es real, no es estafa. Tienes que pagar 150 dólares antes del 20 de octubre.'],
+   body:`<div class="card verdict real pop">${ic('shield','vi')}<div><div class="t">Es real, no es estafa</div></div>${spk('Esta carta es real. No es estafa.')}</div>
+    <div class="facts">
+     <div class="card fact rise">${ic('light','fi')}<div><div class="t">Tu cuenta de luz</div></div>${spk('Es tu cuenta de luz y gas.')}</div>
+     <div class="card fact rise" style="animation-delay:120ms">${ic('coin','fi')}<div><div class="num">${fmt(150)}</div><div class="s">para pagar</div></div>${spk('Tienes que pagar 150 dólares.')}</div>
+     <div class="card fact rise" style="animation-delay:240ms">${ic('calendar','fi')}<div><div class="t">Antes del 20 oct</div></div>${spk('Paga antes del 20 de octubre.')}</div></div>
+    <div class="duo"><button data-a="remind">${ic('bell')}Recuérdame</button><button data-a="other">${ic('letter')}Otra carta</button></div>`,
+   dock:{back:()=>{S.letter='ask';render()},mic:()=>listen('Recuérdame, por favor',()=>H.remind())}};
+  if(st==='scam') return {guide:['¡Cuidado! Es estafa','¡Cuidado! Esta carta es una estafa. Dice que ganaste dinero, pero te pide pagar hoy. No pagues y no llames.'],
+   body:`<div class="card verdict scam pop">${ic('warn','vi')}<div><div class="t">¡Cuidado! Es estafa</div></div>${spk('Cuidado. Esta carta es una estafa.')}</div>
+    <div class="facts">
+     <div class="card fact rise">${ic('gift','fi')}<div><div class="t">Dice que ganaste</div></div>${spk('Dice que ganaste dinero. Nadie regala dinero así.')}</div>
+     <div class="card fact rise" style="animation-delay:120ms">${ic('clock','fi')}<div><div class="t">Te apura a pagar</div></div>${spk('Te apura a pagar hoy. Eso es señal de estafa.')}</div>
+     <div class="card fact rise" style="animation-delay:240ms"><span class="pi" style="width:64px;height:64px;border-radius:50%;background:var(--terra);color:#fff;display:grid;place-items:center;flex:none">${bsv('x')}</span><div><div class="t">No pagues. No llames.</div></div>${spk('No pagues. No llames al número de la carta.')}</div></div>
+    <div class="duo"><button data-a="warnfam">${ic('family')}Avisar a mi familia</button><button data-a="lesson">${ic('headphones')}Aprende de estafas</button></div>`,
+   dock:{back:()=>{S.letter='ask';render()},mic:()=>listen('Avísale a mi familia',()=>H.warnfam())}};
+  return {guide:['¿Te llegó una carta?','¿Te llegó una carta y no sabes qué dice? Tómale una foto. Yo te digo qué es, si es real, y qué hacer.'],
+   body:`<div class="helphero">${sv(`<g transform="translate(10,10) scale(1.3)">${G.letter}</g><g transform="translate(100,6) scale(1.2)">${G.shield}</g><g transform="translate(160,24) scale(.8)">${G.warn}</g>`,'0 0 220 96')}</div>
+    ${title('Yo te la explico','Yo te explico la carta: qué es, si es real, y qué hacer.')}
+    <button class="card camcard" data-a="lcam"><span class="ci">${bsv('camera')}</span><span class="t">Foto de la carta</span></button>`,
+   dock:{back:()=>go(8),mic:()=>listen('Me llegó una carta',()=>{S.letter='scan';render()})}};
+},
 };
 
 /* ——— render ——— */
@@ -801,7 +1053,7 @@ function render(autoSpeak=true){
   $('body').innerHTML=d.body;$('dock').innerHTML=dockHTML(d.dock);
   $('dots').innerHTML=S.screen<=8?Array.from({length:8},(_,i)=>`<i class="${i+1===S.screen?'on':i+1<S.screen?'done':''}"></i>`).join(''):'';
   if(d.after)d.after();
-  const n=NOTES[S.screen];$('pnum').textContent=`Screen ${S.screen} of 12`;$('pname').textContent=n[0];$('pnote').textContent=n[1];
+  const n=NOTES[S.screen];$('pnum').textContent=`Screen ${S.screen} of 16`;$('pname').textContent=n[0];$('pnote').textContent=n[1];
   document.querySelectorAll('#pnav button').forEach(b=>b.classList.toggle('on',+b.dataset.n===S.screen));
   if(autoSpeak&&audioOn)speak(currentSay);
 }
@@ -830,7 +1082,7 @@ $('replay').addEventListener('click',()=>{audioOn=true;$('replay').classList.rem
 document.addEventListener('pointerdown',()=>{if(!audioOn){audioOn=true;$('replay').classList.remove('nudge')}},{capture:true});
 $('avatar').innerHTML=rosa();
 $('pnav').innerHTML=Object.entries(NOTES).map(([k,v])=>`<button data-n="${k}"><b>${k}</b>${v[0]}</button>`).join('');
-$('pnav').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;audioOn=true;$('replay').classList.remove('nudge');const n=+b.dataset.n;if(n===9)S.spendStep='ask';if(n===10)S.res=null;if(n===12)S.helper='off';if(n===11)S.playing=null;go(n)});
+$('pnav').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;audioOn=true;$('replay').classList.remove('nudge');const n=+b.dataset.n;if(n===9)S.spendStep='ask';if(n===10)S.res=null;if(n===12)S.helper='off';if(n===11)S.playing=null;if(n===14)S.bizStep='main';if(n===16){S.letter='ask';S.letterNext=null}go(n)});
 $('reset').addEventListener('click',()=>{hush();S=fresh();render(false)});
 try{window.speechSynthesis&&window.speechSynthesis.getVoices()}catch(e){}
 render(false);
